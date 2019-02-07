@@ -1,0 +1,14 @@
+# Espresso Beginner Python Training
+This is the material for the Beginner Python Espresso session, taking place on the 12th of February 2019.
+
+
+ 
+## Folder structure
+* The source code is in `<src>`, the data in `<data>` folders, tests in the `<test>` folder
+* within `<src>` we will have a separate package (folder) for each problem we will tackle. E.g. logging and exception handling is in `<logexception>`
+
+
+## Usage
+Just checkout the code, branch and use.
+
+For any question, contact [Cataldo Azzariti](cataldo.azzariti@sapient.com) and [Mani](manimegalai.jaganathan@sapient.com).
