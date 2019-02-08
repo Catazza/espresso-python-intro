@@ -8,6 +8,18 @@ This is the material for the Beginner Python Espresso session, taking place on t
 * within `<src>` we will have a separate package (folder) for each problem we will tackle. E.g. logging and exception handling is in `<logexception>`
 
 
+## Session agenda
+- Show project structure - PyCharm intro
+- Virtual envs and how to install from requirements.txt
+- Show how to declare functions
+- How to import modules
+- Talk through PyCharm's debugger
+- Unit testing
+- How to run the debugger
+- Logging
+- Exception handling
+- Packaging with setup.py
+
 ## Usage
 Just checkout the code, branch and use.
 
