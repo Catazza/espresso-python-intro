@@ -32,6 +32,18 @@ class ApplicationException(Exception):
         return repr(self.data)
 
 
+class InputError(Exception):
+    """Base class for exceptions in this module."""
+    """Exception raised for errors in the input.
+    Attributes:
+        expression -- input expression in which the error occurred
+        message -- explanation of the error
+    """
+
+    def __init__(self, message):
+        self.message = message
+
+
 def exception_handler(exc_type, logger, silence=False, exc_trace=False):
     """
     Decorator to catch and log exceptions in a function. Used to avoid clogging the code with constant calls to the
